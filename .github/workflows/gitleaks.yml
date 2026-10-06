@@ -1,4 +1,4 @@
-﻿name: Secret Scan
+name: Secret Scan
 
 on:
   push:
@@ -23,4 +23,3 @@ jobs:
         uses: gitleaks/gitleaks-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
